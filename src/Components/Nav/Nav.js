@@ -5,7 +5,7 @@ export default function Nav() {
     return (
         <Container>
             <Logo>
-            Awp
+            AwpAwpAwpAwp
             </Logo>
             <NavBar>
                 <a href='no_target'>testing</a>
@@ -20,8 +20,9 @@ const Container = styled.div`
     display:flex;
     justify-content:space-between;
     border:1px solid black;
-    height:auto;
+    height:3vh;
     background:grey;
+    
 `   
 
 const Logo = styled.div`
@@ -39,7 +40,7 @@ const NavBar = styled.div`
     border:1px solid black;
     background:darkgrey;
     a{
-        padding-right:1vw;
+        padding-left:1vw;
     }
 }
 `

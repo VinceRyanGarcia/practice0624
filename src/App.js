@@ -15,7 +15,7 @@ function App() {
       <Cover/>
       <BS />
       <Shows />
-      {/* <Email /> */}
+      {/* <Email />  */}
       <Youtube />
       <Footer/>
     </div>

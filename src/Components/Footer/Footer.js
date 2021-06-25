@@ -16,9 +16,13 @@ export default function Footer() {
 }
 
 const Container = styled.div`
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
     border:1px solid black;
     background:green;
-    height:auto;
+    height:13vh;
 `
 const Social = styled.div`
     border:1px solid black;

@@ -4,7 +4,6 @@ import styled from 'styled-components'
 export default function BS() {
     return (
         <Container>
-            
             <Box>
                 <h1>Embrace my passion</h1>
                 <p>
@@ -36,15 +35,22 @@ const Container = styled.div`
     @media only screen and (min-width: 600px) {
         display:flex;
         flex-direction:row;
+        /* justify-content:center; */
         padding-left:1vw;
         padding-right:1vw;   
+        margin-left:10%;
+        margin-right:10%;
     }
 `
 
 const Box = styled.div`
     border:1px solid black;
     color:red;
+    font-size:1rem;
     margin:1vw;
+    text-align:center;
+    background-color:white;
+    color:black;
     @media only screen and (min-width: 600px) {
         margin:2vw;
         width:33%;
